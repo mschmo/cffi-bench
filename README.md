@@ -5,8 +5,8 @@
 Download and build:
 
 ```
-$ git clone <this_git_repo>
-$ cd <git-repo-path>
+$ git clone git@github.com:mschmo/cffi-bench.git
+$ cd cffi-bench
 $ sh build.sh
 ```
 
