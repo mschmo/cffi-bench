@@ -34,27 +34,27 @@ Pure rust implementation:
 
 Records counted: 5000000
 
-real	0m0.773s
-user	0m0.651s
-sys	0m0.101s
+real	0m0.613s
+user	0m0.577s
+sys	0m0.032s
 
 
 Python pandas implementation:
 
 Records counted: 5000000
 
-real	0m3.088s
-user	0m2.330s
-sys	0m0.584s
+real	0m2.669s
+user	0m2.177s
+sys	0m0.469s
 
 
 Python CFFI with rust implementation:
 
 Records counted: 5000000
 
-real	0m0.737s
-user	0m0.676s
-sys	0m0.050s
+real	0m0.741s
+user	0m0.689s
+sys	0m0.049s
 
 
 Cleaning up...
@@ -64,9 +64,9 @@ Complete
 
 | Implementation | Time |
 | --- | --- |
-| Pure rust | 0.629s |
-| Python2 CFFI with rust | 0.752s |
-| Python2 pandas  | 2.770s |
+| Pure rust | 0.613s |
+| Python2 CFFI with rust | 0.741s |
+| Python2 pandas  | 2.669s |
 
 ### Todo
 
