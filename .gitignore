@@ -1,0 +1,13 @@
+# Python
+env/
+
+# Rust
+src/rust/*/target
+src/rust/pure/Cargo.lock
+**/*.rs.bk
+
+# Results
+out/
+
+# Misc
+.idea/

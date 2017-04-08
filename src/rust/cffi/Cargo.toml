@@ -1,0 +1,16 @@
+[package]
+
+name = "cffi_rust_csv_parser"
+version = "0.0.1"
+authors = [ "Your name <you@example.com>" ]
+
+[lib]
+name = "cffi_rust_csv_parser"
+crate-type = ["dylib"]
+
+[dependencies]
+csv = "*"
+
+[profile.release]
+opt-level = 3
+lto = true
