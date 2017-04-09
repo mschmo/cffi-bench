@@ -16,7 +16,7 @@ Then run bench tests with:
 $ sh run.sh
 ```
 
-This will generate a CSV at /tmp/cffi_bench.csv with 5 million rows. Then run `time` on the three row count implementations, output the results of the tests, and then remove the CSV.
+This will generate a CSV at `/tmp/cffi_bench.csv` with 5 million rows, then run `time` on the three row count implementations, output the results of the tests, and finally remove the CSV.
 
 ### Results
 
@@ -66,7 +66,7 @@ Complete
 | --- | --- |
 | Pure rust | 0.613s |
 | Python2 CFFI with rust | 0.741s |
-| Python2 pandas  | 2.669s |
+| Python2 pandas | 2.669s |
 
 ### Todo
 
